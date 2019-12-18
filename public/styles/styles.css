@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  background-color: lightgray;
+  font-family: "Source-sans-pro", sans-serif;
+  font-size: 20px; }
+
+.Navbar {
+  color: red;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center; }
+  .Navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden; }
+    .Navbar ul li {
+      float: left; }
+      .Navbar ul li a {
+        display: block;
+        padding: 14px 16px;
+        background-color: whitesmoke;
+        text-align: center;
+        text-decoration: none; }
+        .Navbar ul li a:hover {
+          background-color: white; }
+
+.Jumbotron {
+  line-height: 600px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  width: 100%;
+  height: 600px;
+  background-image: url("https://g83jp346tayu3vege2q0y5tb-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/What-is-Biotechnology-HUSS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px; }
+  .Jumbotron span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal; }
+    .Jumbotron span h5 {
+      font-size: 30px; }
+
+.parent {
+  height: 500px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  .parent .child1 {
+    color: white;
+    background-color: lightslategray;
+    text-align: center;
+    font-size: 35px;
+    padding: 8px;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out; }
+    .parent .child1:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); }
+    .parent .child1 span {
+      font-size: 25px; }
+
+.child2 {
+  background-image: url("https://picography.co/wp-content/uploads/2018/09/picography-white-and-brown-cow-in-field-small-2-768x512.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.collaborators {
+  height: 1200px;
+  width: 100%;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: ()[3];
+  grid-template-rows: repeat(3); }
+  .collaborators .collaboratorsbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .collaborators .collaboratorsbox:nth-child(1) {
+      background-image: url("https://pbs.twimg.com/profile_images/464324513090768896/FoQbWCdH_400x400.jpeg");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(1):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(2) {
+      background-image: url("https://fcrn.org.uk/sites/default/files/styles/large/public/image26.jpg?itok=4Nm2xycS");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(2):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(3) {
+      background-image: url("https://brand.wsu.edu/wp-content/themes/brand/downloads/social/wsu-central-social-badge.png");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(3):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(4) {
+      background-image: url("https://pbs.twimg.com/profile_images/900341610868862976/eX5zBLyO_400x400.jpg");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(4):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(5) {
+      background-image: url("http://www.translate-medtech.ac.uk/wp-content/uploads/2018/01/Innovate-UK-Logof-inal.png");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(5):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(6) {
+      background-image: url("http://www.godan.info/sites/default/files/styles/partner_results_page_logo/public/logos/chinese_academy_of_agricultural_sciences_agricultural_information_institute.jpg?itok=GUqlt_hX");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(6):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(7) {
+      background-image: url("http://www.jobs.ac.uk/images/employer-logos/medium/656.gif");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(7):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(8) {
+      background-image: url("http://www.compulink.co.uk/~klockstone/npl.gif");
+      background-size: 100% 100%;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(8):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+    .collaborators .collaboratorsbox:nth-child(9) {
+      background-color: skyblue;
+      position: relative;
+      color: white;
+      font-size: 50px;
+      -webkit-transition: 1s ease-in-out;
+      -o-transition: 1s ease-in-out;
+      transition: 1s ease-in-out; }
+      .collaborators .collaboratorsbox:nth-child(9):hover {
+        -webkit-transform: scale(1.1, 1.3);
+        -ms-transform: scale(1.1, 1.3);
+        transform: scale(1.1, 1.3); }
+      .collaborators .collaboratorsbox:nth-child(9) span {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+
+.footer {
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  background-color: lightgrey;
+  color: black;
+  position: relative; }
+  .footer span {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
